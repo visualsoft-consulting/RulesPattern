@@ -1,1 +1,1 @@
-# RulesPattern
+# The Rules Design Pattern
