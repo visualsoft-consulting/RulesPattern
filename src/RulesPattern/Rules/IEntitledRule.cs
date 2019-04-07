@@ -1,4 +1,4 @@
-﻿namespace RulesPattern
+﻿namespace RulesPattern.Rules
 {
     public interface IEntitledRule
     {
