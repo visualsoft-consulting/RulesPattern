@@ -1,12 +1,25 @@
 ﻿using System;
 
-namespace ConsoleApp
+namespace ValidationRules
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Person
+            {
+                MonthlyIncome = 400,
+                CarEngineDisplacement = 1000,
+                HouseholdIncome = 6000,
+                MovablePropertyValue = 3000,
+                RealEstateValue = 0,
+                HasLivedAbroad2Years = false
+            };
+
+            var calculator = new MinimumIncomeEntitlingCalculator();
+            bool isEntitled = calculator.CheckIfPersonIsEntitledToMinimumIncome(person);
+
+            Console.WriteLine($"Is entitled? {isEntitled}");
         }
     }
 }
