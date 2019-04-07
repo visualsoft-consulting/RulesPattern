@@ -1,1 +1,1 @@
-# ValidationRules
+# RulesPattern
