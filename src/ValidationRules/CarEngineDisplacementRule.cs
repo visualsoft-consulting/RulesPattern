@@ -1,4 +1,4 @@
-﻿namespace ValidationRules
+﻿namespace RulesPattern
 {
     public class CarEngineDisplacementRule : IEntitledRule
     {

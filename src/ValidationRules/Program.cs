@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace ValidationRules
+namespace RulesPattern
 {
     [ExcludeFromCodeCoverage]
     internal static class Program

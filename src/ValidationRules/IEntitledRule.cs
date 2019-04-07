@@ -1,4 +1,4 @@
-﻿namespace ValidationRules
+﻿namespace RulesPattern
 {
     public interface IEntitledRule
     {

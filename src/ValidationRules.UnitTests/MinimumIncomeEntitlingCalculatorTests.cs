@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace ValidationRules.UnitTests
+namespace RulesPattern.UnitTests
 {
     public class MinimumIncomeEntitlingCalculatorTests
     {

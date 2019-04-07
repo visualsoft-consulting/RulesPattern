@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ValidationRules\ValidationRules.csproj" />
+    <ProjectReference Include="..\ValidationRules\RulesPattern.csproj" />
   </ItemGroup>
 
 </Project>
