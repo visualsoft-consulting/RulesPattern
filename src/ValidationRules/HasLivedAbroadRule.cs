@@ -4,7 +4,7 @@
     {
         public bool CheckIfEntitledToMinimumIncome(Person person)
         {
-            return !person.HasLivedAbroad2Years;
+            return !person.HasLivedAbroadLast2Years;
         }
     }
 }

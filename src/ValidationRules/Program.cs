@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ValidationRules
 {
+    [ExcludeFromCodeCoverage]
     internal static class Program
     {
         private static void Main(string[] args)
@@ -13,7 +15,7 @@ namespace ValidationRules
                 HouseholdIncome = 6000,
                 MovablePropertyValue = 3000,
                 RealEstateValue = 0,
-                HasLivedAbroad2Years = false
+                HasLivedAbroadLast2Years = false
             };
 
             var calculator = new MinimumIncomeEntitlingCalculator();

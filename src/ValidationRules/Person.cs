@@ -7,6 +7,6 @@
         public int CarEngineDisplacement { get; set; }
         public decimal RealEstateValue { get; set; }
         public decimal MovablePropertyValue { get; set; }
-        public bool HasLivedAbroad2Years { get; set; }
+        public bool HasLivedAbroadLast2Years { get; set; }
     }
 }
